@@ -24,6 +24,17 @@ DEBUG = True
 
 TEMPLATE_DEBUG = True
 
+TEMPLATE_DIRS = (
+    os.path.abspath('templates'),
+)
+
+TEMPLATE_LOADERS = (
+
+        'django.template.loaders.filesystem.Loader',
+        'django.template.loaders.app_directories.Loader',
+
+)
+
 ALLOWED_HOSTS = []
 
 
@@ -111,3 +122,5 @@ LOGGING = {
         },
      },
 }
+
+LOGIN_URL = '/login/'
