@@ -12,8 +12,7 @@ from django.contrib.auth.decorators import login_required
 from django.core.paginator import Paginator, InvalidPage, EmptyPage
 from django.contrib import*
 
-from apps.forms import *
+
 from apps.models import *
-from apps.helper import *
 
 # Create your views here.
