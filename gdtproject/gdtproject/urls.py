@@ -1,6 +1,7 @@
 from django.conf.urls import patterns, include, url
 from django.contrib import admin
-from apps import *
+from apps.form import *
+from apps.models import *
 urlpatterns = patterns('',
     # Examples:
     # url(r'^$', 'gdtproject.views.home', name='home'),
